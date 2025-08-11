@@ -262,6 +262,10 @@ ul {
     margin-right: 15px;
 }
 
+.home.section .container .row{
+   align-items: center;
+}
+
 .home {
     min-height: 100vh;
     display: flex;
