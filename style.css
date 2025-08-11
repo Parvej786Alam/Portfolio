@@ -356,19 +356,20 @@ h3.my-profession {
     width: 20%; /* responsive size relative to image */
     aspect-ratio: 1 / 1; /* keeps it square */
     box-sizing: border-box;
+    border-radius: 10px 0;
 }
 
 .home-img::before {
     border-top: 0.5vw solid var(--skin-color);
     border-left: 0.5vw solid var(--skin-color);
-    top: -1vw;
+    top: -1.8vw;
     left: -1vw;
 }
 
 .home-img::after {
     border-bottom: 0.5vw solid var(--skin-color);
     border-right: 0.5vw solid var(--skin-color);
-    bottom: -1vw;
+    bottom: -1.8vw;
     right: -1vw;
 }
 
