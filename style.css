@@ -353,33 +353,35 @@ h3.my-profession {
 .home-img::after {
     content: '';
     position: absolute;
-    height: 80px;
-    width: 80px;
+    width: 20%; /* responsive size relative to image */
+    aspect-ratio: 1 / 1; /* keeps it square */
     box-sizing: border-box;
 }
 
 .home-img::before {
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
-    top: -20px;
-    left: -20px;
+    border-top: 0.5vw solid var(--skin-color);
+    border-left: 0.5vw solid var(--skin-color);
+    top: -1vw;
+    left: -1vw;
 }
 
 .home-img::after {
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    bottom: -20px;
-    right: -20px;
+    border-bottom: 0.5vw solid var(--skin-color);
+    border-right: 0.5vw solid var(--skin-color);
+    bottom: -1vw;
+    right: -1vw;
 }
 
 .home .home-img img {
     margin: auto;
     border-radius: 8px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
     display: block;
     position: relative;
     z-index: 1;
 }
+
 
 
 .about .about-content {
