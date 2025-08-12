@@ -43,7 +43,7 @@ ul {
 
 .section {
     background: var(--bg-black-900);
-    min-height: 100vh;
+/*     min-height: 100vh; */
     display: block;
     padding: 0 30px;
     opacity: 1;
@@ -267,8 +267,8 @@ ul {
 }
 
 .home {
-    min-height: 100vh;
-    display: flex;
+/*     min-height: 100vh;
+    display: flex; */
     color: var(--text-black-900);
 }
 
