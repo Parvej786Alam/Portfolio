@@ -831,5 +831,7 @@ h3.my-profession {
 .portfolio-img:hover img {
     transform: scale(1);
 }
-
+.portfolio-item {
+    margin: 15px 0;
+    }
 
