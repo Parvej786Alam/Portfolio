@@ -788,11 +788,6 @@ h3.my-profession {
     border: 0;
 }
 
-
-
-
-
-
 .portfolio-img {
     text-align: center;
     background: #fff; /* change if needed */
@@ -833,5 +828,5 @@ h3.my-profession {
 }
 .portfolio-item {
     margin: 15px 0;
-    }
+}
 
